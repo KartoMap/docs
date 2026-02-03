@@ -50,5 +50,3 @@ Developing a mapping engine requires managing two distinct types of data.
 * **PostgreSQL + PostGIS:** The absolute industry standard. Allows you to perform spatial SQL queries such as:
 ```sql
   SELECT name FROM restaurants WHERE ST_DWithin(geom, user_location, 500);
-
-Translated with DeepL.com (free version)
